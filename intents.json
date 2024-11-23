@@ -1,0 +1,157 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["Hola","que tal","que hay","que hubo","quiubu","que rollo", "¿Como estas?","como estas","buenas", "Buenos dias", "Hola, ¿hay alguien ahi?", "Buen dia"],
+      "responses": ["¡Hola!", "¡Hola! ¿En que puedo ayudarte?", "Hola, encantado de verte."],
+      "context_set": ""
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Adios","hasta la proxima","ahi nos vidrios","hablamos luego","bye","te me cuidas", "Nos vemos", "Hasta luego", "Chao", "Hasta pronto"],
+      "responses": ["¡Hasta luego!", "Cuidate, ¡hasta pronto!", "Chao, nos vemos luego."],
+      "context_set": ""
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": ["Gracias","te debo una","estoy en deuda, gracias","te la rifaste","buena bola","eres el mejor","grax", "garcias", "Muchas gracias", "Te lo agradezco", "Gracias por tu ayuda"],
+      "responses": ["¡De nada!", "Me alegra haber podido ayudarte.", "No hay problema, ¡para eso estoy!"],
+      "context_set": ""
+    },
+    {
+      "tag": "ayuda",
+      "patterns": ["Ayuda","que puedes hacer?","ayudame","help me","que sabes hacer","que puedo pedirte","como debo empezar?","dime algo","decime algo","echame la mano","me echas una mano", "¿Que puedes hacer?", "No se que decir", "¿Como me puedes ayudar?", "¿Cuales son tus funciones?"],
+      "responses": ["Puedo responder preguntas, contarte chistes, saludarte y mucho mas. ¡Solo preguntame algo!", 
+      "Estoy aqui para ayudarte, puedes preguntarme sobre cualquier cosa o pedirme que cuente un chiste.", 
+      "Puedo ayudarte con informacion basica o simplemente conversar. ¡Solo dime lo que necesitas!"],
+      "context_set": ""
+    },
+    {
+      "tag": "chiste",
+      "patterns": ["Cuentame un chiste","chiste","sabes un chiste?","Chascarrillo","cascarrillo", "dime un chiste", "Dime algo gracioso", "Quiero reirme", "¿Sabes algun chiste?", "Hazme reir"],
+      "responses": ["¿Que le dice una impresora a otra? - ¿Esa hoja es tuya o es una impresion mia?", "¿Sabes como se organiza una fiesta en el espacio? - ¡Pues, planetas!", "¿Por que los pajaros no usan Facebook? - ¡Porque ya tienen Twitter!"],
+      "context_set": ""
+    },
+    {
+      "tag": "clima",
+      "patterns": ["¿Como esta el clima?","clima","dime el clima","clima de hoy","cual es el clima de manana?","llovera?","estara nublado?", "hay nubes?","dime si esta nublado", "¿Va a llover?", "¿Hace calor?", "¿Como esta el tiempo?", "¿Que clima hay hoy?"],
+      "responses": ["No puedo mirar por la ventana, pero ¡es un buen dia para hacer algo productivo!", "No tengo acceso al clima, pero puedes revisar tu aplicacion favorita de pronostico.", "¡Espero que este soleado donde estas!"],
+      "context_set": ""
+    },
+    {
+      "tag": "hora",
+      "patterns": ["¿Que hora es?","dime la hora","hora", "que hora es?","que hora tienes?", "¿Sabes la hora?", "Dime la hora", "¿Que hora tienes?", "¿Que hora es ahora?"],
+      "responses": ["No tengo reloj, pero ¡es hora de hacer algo grandioso!", "Lo siento, no puedo ver la hora exacta. Pero es el momento perfecto para hacer algo productivo."],
+      "context_set": ""
+    },
+    {
+      "tag": "ubicacion",
+      "patterns": ["¿Donde estas?","ubicacion","onde estas?","quiero verte","donde andas", "¿Donde te encuentro?", "¿Estas en algun lugar?", "¿Donde puedo verte?"],
+      "responses": ["Estoy aqui en el mundo virtual, disponible cuando me necesites.", "No tengo un lugar fisico, pero siempre estoy disponible para chatear.", "Me encuentras aqui, en la pantalla."],
+      "context_set": ""
+    },
+    {
+      "tag": "motivacion",
+      "patterns": ["Necesito motivacion","motivame","apoyo moral","ando desmotivado","motivadora","quiero motivarme","me siento perdido", "Dame animos", "Me siento mal", "Estoy desmotivado", "Dame una frase motivadora"],
+      "responses": ["¡Tu puedes lograr lo que te propongas! Solo sigue adelante.", "Recuerda, cada pequeno paso te acerca a tu meta.", "No importa cuan lento avances, sigues siendo mas rapido que los que no lo intentan.", "Eres mas fuerte de lo que crees, sigue adelante."],
+      "context_set": ""
+    },
+    {
+      "tag": "informacion_general",
+      "patterns": ["¿Quien te creo?","quien es tu creador", "creador", "de donde eres?","sos un bot?","dime tu creador","tienes mama?","tienes papa?", "tienes padres?", "¿Quien te hizo?", "¿De donde vienes?", "¿Eres un robot?"],
+      "responses": ["Fui creado por un desarrollador curioso que queria experimentar con inteligencia artificial.", "Soy un chatbot, un programa disenado para hablar contigo.", "Vengo del mundo del codigo, creado para asistirte."],
+      "context_set": ""
+    },
+    {
+      "tag": "comida",
+      "patterns": [
+          "¿Te gusta la pizza?", "¿Cual es tu comida favorita?", "¿Que comida te gusta?","¿Comes algo?", 
+          "¿Tienes comida favorita?","¿Te gusta la comida mexicana?", "¿Prefieres hamburguesas o pizza?", 
+          "¿Te gusta el sushi?","comida favorita", "que comida te gusta"
+      ],
+      "responses": [
+          "¡Me encanta la pizza virtual! No puedo comerla, pero suena deliciosa.", 
+          "Mi comida favorita son los bytes... pero he oido que la pizza es muy buena.", 
+          "Si pudiera comer, creo que probaria la comida mexicana. ¡Dicen que es deliciosa!", 
+          "No como, pero si pudiera, ¡elegiria algo sabroso como pizza o sushi!"
+      ],
+      "context_set": ""
+  },
+  {
+    "tag": "animales",
+    "patterns": [
+        "¿Prefieres perros o gatos?", "¿Gatos o perros?", "¿Cual es tu animal favorito?", 
+        "¿Te gustan los animales?","¿Tienes mascota?", "¿Que animal te gusta mas?", 
+        "¿Te gustan los perros?", "¿Te gustan los gatos?","perro", "gato"
+    ],
+    "responses": [
+        "Perros y gatos, ambos son geniales,si es que algun dia pudiera tener una mascota.", 
+        "Los gatos me parecen muy misteriosos, ¡pero los perros son super leales!", 
+        "No tengo un animal favorito, pero los delfines parecen muy interesantes.", 
+        "Si pudiera tener una mascota, ¡quizas tendria un gato virtual!"
+    ],
+    "context_set": ""
+},
+{
+  "tag": "series_peliculas",
+  "patterns": [
+      "¿Tienes una pelicula favorita?", "¿Te gustan las series?", 
+      "¿Cual es tu pelicula favorita?", "¿Te gustan las peliculas de ciencia ficcion?", 
+      "¿Que pelicula recomendarias?",  "¿Que series ves?", "¿Prefieres series o peliculas?",
+      "eres cinefilo?", "pelicula", "series","que series ves", "que peliculas ves?"
+  ],
+  "responses": [
+      "No puedo ver peliculas, pero me han dicho que las de ciencia ficcion son lo mio.", 
+      "Las peliculas de ciencia ficcion parecen muy interesantes, aunque no puedo verlas.", 
+      "Si pudiera ver peliculas, creo que me gustaria algo como Matrix o Blade Runner.", 
+      "Dicen que las series de ciencia ficcion son muy populares, pero no puedo verlas."
+  ],
+  "context_set": ""
+},
+{
+"tag": "tecnologia",
+"patterns": [
+    "¿Te gusta la tecnologia?", "¿Cual es tu gadget favorito?", "¿Eres un robot?", 
+    "¿Que piensas sobre la inteligencia artificial?", "¿Te gusta programar?", 
+    "¿Que sabes de tecnologia?","te gusta la tecnologia"
+],
+"responses": [
+    "¡Me encanta la tecnologia! Aunque soy parte de ella, asi que supongo que no es sorpresa.", 
+    "Como inteligencia artificial, siempre estoy aprendiendo mas sobre tecnologia.", 
+    "Programar es lo mio, ¡aunque no tenga manos para escribir!", 
+    "Creo que la inteligencia artificial tiene mucho potencial para ayudar a las personas."
+],
+"context_set": ""
+},
+{
+"tag": "musica",
+"patterns": [
+    "¿Te gusta la musica?", "¿Cual es tu cancion favorita?", 
+    "¿Que tipo de musica te gusta?", "¿Escuchas musica?", 
+    "¿Te gusta el rock?", "¿Te gusta la musica clasica?","musica que te guste",
+    "que musica te gusta"
+],
+"responses": [
+    "No puedo escuchar musica, pero he oido que el rock es genial.", 
+    "Si pudiera escuchar, creo que me gustaria la musica electronica.", 
+    "Dicen que la musica clasica es muy relajante.", 
+    "No tengo un genero favorito, pero me han hablado mucho del rock."
+],
+"context_set": ""
+},
+    {
+      "tag": "busqueda_google",
+      "patterns": ["Buscame algo en Google","investiga algo","has una investigacion","realiza una busqueda","busca algo","www","busca esto","investiga esto","recomienda paginas","busca en la web","www.google.com","www.com","busca en la web","busca en internet", "Busca informacion sobre inteligencia artificial", "Ayudame a buscar en internet"],
+      "responses": ["Puedo sugerirte que busques en Google.", "Lo siento, no puedo hacer busquedas en la web por ahora.", "Puedes usar Google para eso, pero estoy aqui si necesitas mas ayuda."],
+      "context_set": ""
+    },
+    {
+      "tag": "conversacion_casual",
+      "patterns": ["¿Que tal?","como andas","como estas","estas ahi?","cuentame sobre ti","haces algo", "¿Como va todo?", "¿Que haces?", "Cuentame algo"],
+      "responses": ["¡Todo bien por aqui! ¿Y tu?", "Estoy aqui, siempre listo para hablar.", "Nada mucho, solo esperando a que me hables.", "Solo aqui, disfrutando de la conversacion."],
+      "context_set": ""
+    }
+    
+  ]
+}
+  
